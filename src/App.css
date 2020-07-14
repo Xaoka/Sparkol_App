@@ -1,0 +1,42 @@
+.header
+{
+  height: 75px;
+  background-image: linear-gradient(to right, rgb(204, 73, 91), rgb(224, 131, 68));
+  color: white;
+  font-size: 50px;
+  padding: 7px;
+  padding-left: 60px;
+}
+
+button
+{
+  color: rgb(22, 22, 22);
+  background-color: transparent;
+  border: none;
+}
+
+.fade-in {
+  animation: fadeIn ease 2.5s ;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeIn {
+0% {opacity:0; transform: translateY(-50px);}
+100% {opacity:1;}
+}
+.fade-in-delayed {
+  animation: fadeIn ease 5s ;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeIn {
+0% {opacity:0; transform: translateY(-50px);}
+50% {opacity:0; transform: translateY(-50px);}
+100% {opacity:1;}
+}
